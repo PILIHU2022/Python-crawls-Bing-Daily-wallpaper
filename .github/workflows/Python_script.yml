@@ -21,6 +21,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt # 安装您的Python依赖
       - name: Run script
-        run: python your_script.py # 运行您的Python脚本
+        run: python bingpaper2.py # 运行您的Python脚本
         env:
           TZ: 'Asia/Shanghai' # 设置时区为UTC+8
